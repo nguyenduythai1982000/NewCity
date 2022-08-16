@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewCity</string>
+    <string name="api_key">bbf2282377b20d1781e8faf0457fb6fe</string>
+    <string name="city_name">City Name</string>
+</resources>
