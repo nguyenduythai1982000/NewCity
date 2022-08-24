@@ -1,4 +1,4 @@
-package com.example.newcity.Model
+package com.example.newcity.model
 
 
 import com.google.gson.annotations.SerializedName
@@ -8,9 +8,9 @@ data class City(
     val coord: Coord,
     @SerializedName("country")
     val country: String,
-    @SerializedName("_id")
+    @SerializedName("id")
     val id: String,
-    @SerializedName("_name")
+    @SerializedName("name")
     val name: String,
     @SerializedName("sun")
     val sun: Sun,

@@ -1,9 +1,11 @@
-package com.example.newcity.Model
+package com.example.newcity.model
 
 
 import com.google.gson.annotations.SerializedName
 
-data class Visibility(
+data class Humidity(
+    @SerializedName("_unit")
+    val unit: String,
     @SerializedName("_value")
     val value: String
 )

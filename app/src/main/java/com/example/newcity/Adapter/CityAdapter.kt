@@ -3,13 +3,13 @@ package com.example.newcity.Adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.example.newcity.Model.City
+import com.example.newcity.model.City
 import com.example.newcity.databinding.CardLayoutBinding
+import com.example.newcity.model.Province
 
 class CityAdapter: RecyclerView.Adapter<CityAdapter.CityViewHolder>() {
-    var city = mutableListOf<City>()
-    fun setData(city: List<City>){
+    var city = mutableListOf<Province>()
+    fun setData(city: List<Province>){
         this.city = city.toMutableList()
         notifyDataSetChanged()
     }

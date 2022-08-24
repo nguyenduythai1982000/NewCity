@@ -3,7 +3,7 @@ package com.example.newcity.viewmodel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.newcity.CityRepository
-import com.example.newcity.Model.City
+import com.example.newcity.model.City
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

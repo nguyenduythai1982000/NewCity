@@ -1,11 +1,9 @@
-package com.example.newcity.Model
+package com.example.newcity.model
 
 
 import com.google.gson.annotations.SerializedName
 
-data class Clouds(
-    @SerializedName("_name")
-    val name: String,
+data class Visibility(
     @SerializedName("_value")
     val value: String
 )
